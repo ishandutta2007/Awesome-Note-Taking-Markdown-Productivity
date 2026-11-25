@@ -270,3 +270,12 @@ Star the repo if you find it useful!
 **Made for writers, researchers, developers, PKM enthusiasts, and lifelong learners.**  
 
 Let's make note-taking and Markdown productivity faster, future-proof, and open.
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Note-Taking-Markdown-Productivity&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Note-Taking-Markdown-Productivity_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Note-Taking-Markdown-Productivity_growth.svg">
+  </picture>
+</a>
