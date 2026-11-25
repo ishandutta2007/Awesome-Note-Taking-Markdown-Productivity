@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background:#090d16;border-radius:16px;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <defs>
+    <!-- Background Linear Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="50%" stop-color="#121829"/>
+      <stop offset="100%" stop-color="#1a102f"/>
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Animated Nodes & Grid Styles -->
+    <style>
+      .node-pulse {
+        animation: pulse 4s ease-in-out infinite alternate;
+      }
+      .node-pulse-delay {
+        animation: pulse 4s ease-in-out infinite alternate;
+        animation-delay: 2s;
+      }
+      .orbit-line {
+        stroke-dasharray: 6 6;
+        animation: dash 30s linear infinite;
+      }
+      .floating-tag {
+        animation: float 6s ease-in-out infinite alternate;
+      }
+      .floating-tag-2 {
+        animation: float 7s ease-in-out infinite alternate-reverse;
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -300; }
+      }
+      @keyframes pulse {
+        0% { transform: scale(0.96); opacity: 0.4; }
+        100% { transform: scale(1.04); opacity: 0.85; }
+      }
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-10px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" fill="url(#bgGrad)" />
+
+  <!-- Geometric Grid Pattern (Subtle PKM graph background) -->
+  <g opacity="0.18">
+    <circle cx="150" cy="180" r="180" fill="none" stroke="#6366f1" stroke-width="1" class="orbit-line" />
+    <circle cx="1050" cy="180" r="210" fill="none" stroke="#ec4899" stroke-width="1" class="orbit-line" />
+    <line x1="150" y1="180" x2="320" y2="90" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="4 4" />
+    <line x1="150" y1="180" x2="280" y2="290" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="4 4" />
+    <line x1="1050" y1="180" x2="880" y2="80" stroke="#f472b6" stroke-width="1.5" stroke-dasharray="4 4" />
+    <line x1="1050" y1="180" x2="900" y2="280" stroke="#f472b6" stroke-width="1.5" stroke-dasharray="4 4" />
+  </g>
+
+  <!-- Dynamic Glowing Orbs in Background -->
+  <g class="node-pulse" transform-origin="200 180">
+    <circle cx="200" cy="180" r="120" fill="url(#cyanGrad)" filter="url(#glow)" />
+  </g>
+  <g class="node-pulse-delay" transform-origin="1000 180">
+    <circle cx="1000" cy="180" r="140" fill="#a855f7" opacity="0.35" filter="url(#glow)" />
+  </g>
+
+  <!-- Floating PKM / Markdown Badges (Behind main text but clearly layered) -->
+  <g class="floating-tag" transform="translate(0, 0)">
+    <g transform="translate(80, 50)">
+      <rect width="170" height="38" rx="19" fill="#1e2238" stroke="#4f46e5" stroke-width="1.2" />
+      <text x="85" y="24" fill="#a5b4fc" font-size="13" font-weight="600" text-anchor="middle">⚡ Local-First PKM</text>
+    </g>
+    <g transform="translate(940, 270)">
+      <rect width="180" height="38" rx="19" fill="#2d1b3e" stroke="#c084fc" stroke-width="1.2" />
+      <text x="90" y="24" fill="#e9d5ff" font-size="13" font-weight="600" text-anchor="middle">🕸️ Bi-Directional Links</text>
+    </g>
+  </g>
+
+  <g class="floating-tag-2" transform="translate(0, 0)">
+    <g transform="translate(90, 270)">
+      <rect width="170" height="38" rx="19" fill="#182c3c" stroke="#38bdf8" stroke-width="1.2" />
+      <text x="85" y="24" fill="#7dd3fc" font-size="13" font-weight="600" text-anchor="middle">🔒 Zero-Knowledge E2EE</text>
+    </g>
+    <g transform="translate(950, 50)">
+      <rect width="170" height="38" rx="19" fill="#2f192b" stroke="#f43f5e" stroke-width="1.2" />
+      <text x="85" y="24" fill="#fda4af" font-size="13" font-weight="600" text-anchor="middle">🧠 Second Brain Sync</text>
+    </g>
+  </g>
+
+  <!-- CENTER FOREGROUND: Title, Subtitle, Badges -->
+  <!-- Top Pill -->
+  <g transform="translate(470, 48)">
+    <rect width="260" height="32" rx="16" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.18)" stroke-width="1" />
+    <circle cx="16" cy="16" r="5" fill="#10b981" />
+    <text x="138" y="21" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="1.2" text-anchor="middle">THE CURATED ECOSYSTEM</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="140" fill="url(#primaryGrad)" font-size="44" font-weight="900" text-anchor="middle" letter-spacing="-0.5" filter="drop-shadow(0px 4px 12px rgba(0,0,0,0.6))">
+    Awesome Note-Taking &amp; Markdown
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="185" fill="#ffffff" font-size="20" font-weight="600" text-anchor="middle" letter-spacing="0.2">
+    Productivity • Second Brains • Knowledge Graphs • Local-First
+  </text>
+
+  <!-- Extended Subtitle -->
+  <text x="600" y="222" fill="#94a3b8" font-size="14.5" font-weight="400" text-anchor="middle">
+    Top SaaS Platforms &amp; Star-Ranked Open-Source Repositories for Modern Knowledge Workers
+  </text>
+
+  <!-- Bottom Metric / Ecosystem Highlights Pill Row -->
+  <g transform="translate(240, 260)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="220" height="42" rx="21" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+    <text x="110" y="26" fill="#cbd5e1" font-size="13" font-weight="600" text-anchor="middle">💎 SaaS Market &amp; Pricing</text>
+
+    <!-- Pill 2 -->
+    <rect x="250" y="0" width="220" height="42" rx="21" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+    <text x="360" y="26" fill="#cbd5e1" font-size="13" font-weight="600" text-anchor="middle">⭐ 500k+ OSS GitHub Stars</text>
+
+    <!-- Pill 3 -->
+    <rect x="500" y="0" width="220" height="42" rx="21" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+    <text x="610" y="26" fill="#cbd5e1" font-size="13" font-weight="600" text-anchor="middle">🌿 Digital Gardens &amp; Graph PKM</text>
+  </g>
+</svg>
