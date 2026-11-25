@@ -7,11 +7,13 @@
 
 # 📝 Awesome Note-Taking & Markdown Productivity 🚀
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Note-Taking-Markdown-Productivity?style=social)](https://github.com/ishandutta2007/Awesome-Note-Taking-Markdown-Productivity/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Note-Taking-Markdown-Productivity/pulls)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Note-Taking-Markdown-Productivity/graphs/commit-activity)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 **A comprehensive, SEO-optimized directory of top-tier SaaS platforms and star-ranked open-source GitHub repositories for note-taking, Markdown editing, bi-directional knowledge graphs, personal knowledge management (PKM), outliners, and local-first second brains.**
 
@@ -23,6 +25,7 @@
 [💎 SaaS & Hosted Platforms](#-saashosted-platforms) •
 [⭐ Open-Source Repositories](#-open-source-github-projects) •
 [🤝 How to Contribute](#-how-to-contribute) •
+[💖 Support & Sponsorship](#-support--sponsorship-) •
 [📊 Star History](#-star-history)
 
 ---
@@ -180,16 +183,24 @@ We welcome contributions from creators, maintainers, and PKM enthusiasts! To add
 
 ---
 
-## 📊 Star History 📈
+## 💖 Support & Sponsorship ☕
+
+Thank you so much for exploring and using this curated resource! Maintaining and continuously updating this ecosystem list takes substantial research and community diligence.
+
+If you find this repository valuable:
+- ⭐ **Star** this repository to show your support and help others discover it.
+- 🍴 **Fork** and contribute additions, corrections, or tools to keep the guide comprehensive.
+- 📢 **Share** it with your fellow writers, developers, PKM practitioners, and teams.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing maintenance and new open-source initiatives, check out the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007). Your sponsorship is deeply appreciated!
+
+---
+
+## 📊 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Note-Taking-Markdown-Productivity&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Note-Taking-Markdown-Productivity&type=date&legend=top-left)
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Note-Taking-Markdown-Productivity&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Note-Taking-Markdown-Productivity&type=date&legend=top-left)
 
 <div align="center">
-
-<a href="https://star-history.com/#ishandutta2007/Awesome-Note-Taking-Markdown-Productivity&Timeline">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Note-Taking-Markdown-Productivity_growth.svg">
-    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Note-Taking-Markdown-Productivity_growth.svg" width="100%">
-  </picture>
-</a>
 
 **Made with ❤️ for writers, researchers, engineers, and lifelong thinkers worldwide.**  
 *Star ⭐ this repo if it helps elevate your personal productivity and knowledge workflow!*
