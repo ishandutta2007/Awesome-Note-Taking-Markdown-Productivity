@@ -9,7 +9,7 @@
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Note-Taking-Markdown-Productivity?style=social)](https://github.com/ishandutta2007/Awesome-Note-Taking-Markdown-Productivity/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Note-Taking-Markdown-Productivity?style=social)](https://github.com/ishandutta2007/Awesome-Note-Taking-Markdown-Productivity/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Note-Taking-Markdown-Productivity/pulls)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Note-Taking-Markdown-Productivity/graphs/commit-activity)
@@ -74,9 +74,9 @@ The table below catalogs leading commercial and hosted note-taking platforms, so
 
 ## ⭐ Open-Source GitHub Projects 💻
 
-Below is the definitive index of open-source note-taking, Markdown editors, and local-first second brains, ranked strictly by **GitHub Stargazer Count** (descending). Each repository features a live star badge linking directly to its GitHub stargazers page.
+Below is the definitive index of open-source note-taking, Markdown editors, and local-first second brains, ranked strictly by **GitHub Stargazer Count** (descending). Each repository features a live Stars_Badge linking directly to its GitHub stargazers page.
 
-| Repository & Stars ⭐ | Architecture & Primary Stack 🛠️ | Description & Core Highlights 📖 |
+| Repository & GitHub_Stars ⭐ | Architecture & Primary Stack 🛠️ | Description & Core Highlights 📖 |
 | :--- | :--- | :--- |
 | **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** [![Stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers) | Flutter, Rust, SQLite | Leading open-source Notion alternative. Provides local-first block/Markdown documents, customizable relational database tables, Kanban boards, and privacy-first AI offline support. |
 | **[AFFiNE](https://github.com/toeverything/AFFiNE)** [![Stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers) | TypeScript, Rust, React, CRDT | Next-generation unified collaborative knowledge base merging structured Markdown docs, mind maps, spreadsheets, and an infinite spatial canvas with privacy-first sync. |
@@ -170,7 +170,7 @@ We welcome contributions from creators, maintainers, and PKM enthusiasts! To add
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-tool`).
 3. 📝 **Add or update your entry** in `README.md`:
    - For SaaS tools: Include verified pricing, free tier limits, company valuation/revenue, and official links.
-   - For Open-Source tools: Include the full repository name, a live star badge (`style=social&color=white`) linked to `/stargazers`, tech stack, and a clear architectural summary.
+   - For Open-Source tools: Include the full repository name, a live Stars_Badge (`style=social&color=white`) linked to `/stargazers`, tech stack, and a clear architectural summary.
 4. 🚀 **Submit a Pull Request** with a concise description of your additions.
 
 ---
@@ -206,3 +206,12 @@ If you find this repository valuable:
 *Star ⭐ this repo if it helps elevate your personal productivity and knowledge workflow!*
 
 </div>
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Note-Taking-Markdown-Productivity&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Note-Taking-Markdown-Productivity_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Note-Taking-Markdown-Productivity_growth.svg">
+  </picture>
+</a>
